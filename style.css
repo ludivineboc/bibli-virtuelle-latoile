@@ -76,6 +76,14 @@ padding: 12px 42px;
     width: 100%;
 }
 
+.w20 {
+  width: 20%;
+}
+
+.w30 {
+  width: 30%;
+}
+
 .w50 {
     width: 50%;
 }
@@ -191,3 +199,24 @@ line-height: 92.188%; /* 27.656px */
   transform: translate(-50%, -50%);
 }
 
+/*////// SECTION ACCESSIBILITE//////////*/
+
+.accessibilité h3 {
+  font-size: 24px;
+  padding-top: 50px;
+  }
+
+
+.accessibilité img {
+  height: 535px;
+  width: 275px;
+}
+
+.accessibilité p {
+text-align: center;
+font-size: 22px;
+}
+
+.accessibilité {
+  padding-bottom: 60px;
+}

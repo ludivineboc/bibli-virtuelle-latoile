@@ -14,13 +14,13 @@
     font-family: "Nunito", serif;
     font-weight: 400;
     color: #606060;
-    background-color: #EAEBF2;
     list-style: none;
     text-decoration: none;
 }
 
 body {
   margin-top: 30px;
+  background-color: #EAEBF2;
 }
 
 .flex {
@@ -64,15 +64,38 @@ body {
     padding: 12px 42px;
 }
 
+.btn_secondaire {
+    border-radius: 31px;
+border: 2px solid #FFF;
+background: linear-gradient(95deg, #DCDDE2 4.48%, #E2E3E7 7.97%, #EBECF0 44.7%, #E4E6EB 44.7%);
+box-shadow: -8px -8px 10px 0px #FFF, 6px 5px 10px 3px rgba(54, 54, 54, 0.24);
+padding: 12px 42px;
+}
 
 .w100 {
     width: 100%;
+}
+
+.w30 {
+  width: 30%;
 }
 
 .w50 {
     width: 50%;
 }
 
+.text_grey {
+  color: #555770;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.bg_white {
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 10.9px 0px rgba(98, 94, 94, 0.25) inset;
+}
 
   /*///////////HEADER////////////////*/
 
@@ -128,26 +151,83 @@ body {
   margin-right: 30px;
 }
 
-/*////////////section 2////////////*/
+/*////////////Contexte////////////*/
 .color_bl {
     color: #555770;
     font-size: 30px;
     line-height: 92.2%;
+    margin-bottom: 50px;
 
 }
-/*////////////section 3////////////*/
 
-.color_br {
-    color: #4D4D4D;
 
+.bg_white {
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 10.9px 0px rgba(98, 94, 94, 0.25) inset;
 }
-.colorbleu{
-    color: #1A92CE
+
+.contexte {
+    padding-top: 100px;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
 }
-.nom {
-    font-size: 30px;
-    line-height: 146.9%;
+
+
+
+
+/*////////////persona////////////*/
+
+.persona {
+    width: 1130px;
+    height: 750px;
 }
+
+/*////////////section////////////*/
+
+
+
+
+
+/*////////////les étapes de conception////////////*/
+
+
+
+
+
+
+
+/*////////////identité graphique////////////*/
+
+
+
+
+/*////////////tests utilisateur////////////*/
+
+
+
+
+
+/*////////////concurence////////////*/
+
+
+
+
+
+
+/*////////////inspiration////////////*/
+
+
+
+
+
+
+
+
+/*////////////footer////////////*/
+
 
 
 
