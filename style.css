@@ -1,5 +1,97 @@
+/*//////////////IMPORT//////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+                    /* Weight :
+                    Regular 400 
+                    SemiBold 600 
+                    Bold 700 */
+
+/*///////////////GLOBAL//////////////*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    color: #606060;
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1500%;
+    margin: auto;
+}
+
+.space_between {
+    justify-content: space-between;
+  }
+
+.alignCenter {
+    text-align: center;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+.regular {
+    font-weight: 400;
+}
+
+.typoTimes {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  /*///////////HEADER////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*///////////FOOTER////////////////*/
+  
