@@ -14,9 +14,13 @@
     font-family: "Nunito", serif;
     font-weight: 400;
     color: #606060;
-    background-color: #EAEBF2;
     list-style: none;
     text-decoration: none;
+}
+
+body {
+  margin-top: 30px;
+  background-color: #EAEBF2;
 }
 
 .flex {
@@ -72,8 +76,21 @@ padding: 12px 42px;
     width: 100%;
 }
 
-.w70 {
-    width: 70%;
+.w50 {
+    width: 50%;
+}
+
+.text_grey {
+  color: #555770;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.bg_white {
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 10.9px 0px rgba(98, 94, 94, 0.25) inset;
 }
 
   /*///////////HEADER////////////////*/
@@ -104,21 +121,73 @@ padding: 12px 42px;
   /*////////////HERO////////////*/
 
   h1 {
-    font-size: 56px;
+    font-size: 52px;
     line-height: 92.188%; /* 59px */
     color: #555770;
   }
 
   .hero {
     height: 100vh;
+    margin-top: 25px;
   }
 
   .hero img {
-    position: absolute;
-    width: 40%;
-    margin-right: 0;
+    width: 38%;
+    object-fit: cover;
   }
 
+.contenu_hero {
+  margin-left: 150px;
+  font-size: 20px;
+  padding-top: 100px;
+  height: 75%;
+}
 
+.hero a {
+  margin-right: 30px;
+}
 
+/*///////SECTION CONTEXTE////////*/
+
+.contexte h3 {
+text-align: center;
+font-size: 30px;
+line-height: 92.188%; /* 27.656px */
+}
+
+.contexte {
+  padding-top: 100px;
+}
+
+/*//////SECTION ENGAGEMENTS////////*/
+
+.engagements {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.engagements h3 {
+  position: relative;
+  bottom: 40px;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+.bulle {
+  width: 160px;
+  height: 160px;
+  border-radius: 244px;
+  background: #EBECF0;
+  box-shadow: -10px -10px 13px 1px #FFF, 8px 8px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bulle p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #484848;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
