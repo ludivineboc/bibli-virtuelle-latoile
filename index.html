@@ -11,33 +11,34 @@
 </head>
 
 <body>
-    <header>
-        <div>
+    <header class="flex container">
+        <div class="flex space_between w100">
             <H2>Freedom Books</H2>
-            <div>
-                <ul>
-                    <li><a href=""></li>Accueil</li>
-                    <li><a href=""></li>Page de documentation</li>
-                    <li><a href=""></li>TÉLÉCHARGER</li>
+            <div class="flex">
+                <ul class="flex">
+                    <li><a href="">Accueil</a></li></li>
+                    <li><a href="">Page de documentation</a></li></li>
+                    <li><a href="" class="btn_principal">TÉLÉCHARGER</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <main>
-        <section> <!--page votre bibliothèque partout,meme hos ligne-->
-            <div>
-                <h1>Votre bibliothèque partout, même hors ligne </h1>
+        <section class="hero flex space_between container"> <!--HERO-->
+            <div class="flex w70">
+                <h1 class="bold">Votre bibliothèque partout, même hors ligne </h1>
                 <p>Accédez à des milliers de livres partout, même sans connexion, et transformez chaque instant en une
                     opportunité de lecture.</p>
                 <div>
-                    <a href="">Télecharger</a>
-                    <a href="">En savoir plus</a>
-                </div>
+                    <a href="" class="btn_principal">Télecharger</a>
+                    <a href="" class="btn_secondaire">En savoir plus</a>
+                </div>     
+                <img src="Assets/BiblioHero.png" alt="Image d'une bibliothèque">
             </div>
-            <img src="" alt="">
+       
         </section>
         <section> <!--il était une fois-->
-            <div>
+            <div class="flex">
                 <h3>Il était une fois .... </h3>
                 <p>Une idée née d’un simple constat : tout le monde n’a pas la chance de lire librement.
 
@@ -185,8 +186,12 @@
             <img src="" alt="">
         </div>
         <div> <!--réseau-->
-            <a href=""><img src="" alt=""></a>
+            <a href="">
+                <img src="" alt="">
+            </a>
+            <a href="">
             <img src="" alt="">
+        </a>
         </div>
         <p>© 2025 Freedom Books - Tous droits réservés.</p>
     </footer>
