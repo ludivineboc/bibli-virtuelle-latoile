@@ -188,6 +188,42 @@ h1 {
 
 /*//////SECTION ENGAGEMENTS////////*/
 
+/*neomorphism*/
+.neocard {
+  border-radius: 50%;
+  background: #EAEBF2;
+  box-shadow: inset 8px 8px 16px #bebebe,
+      inset -8px -8px 16px #ffffff;
+  width: 230px;
+  height: 230px;
+  padding: 20px;
+
+}
+
+.neocard-inside {
+  border-radius: 50%;
+  background: linear-gradient(145deg, #EAEBF2, #EAEBF2);
+  box-shadow: 5px 5px 10px #bebebe,
+      -5px -5px 10px #d2d3da;
+  width: 190px;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.neocard p {
+font-size: 22px;
+font-weight: 600;
+color: #484848;
+position: relative;
+top: 16%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 70%;
+}
+
 .engagements {
   padding-top: 100px;
   padding-bottom: 100px;

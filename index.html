@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="script.js" defer></script>
     <title>Freedom Books</title>
 </head>
@@ -37,7 +39,7 @@
                         opportunité de lecture.</p>
                     
                         <div class="flex w70 space_between btnBoxHero">
-                            <a href="" class="btn_principal">Télecharger</a>
+                            <a href="" class="btn_principal">Télécharger</a>
                             <a href="" class="btn_secondaire">En savoir plus</a>
                         </div>
                        
@@ -62,7 +64,7 @@
                         Dans certains coins du monde, la connexion internet vacille, les livres papier sont rares, et
                         pourtant, l’envie de découvrir, d’apprendre et de s’évader reste universelle. Alors, <span
                             class="bold">nous avons rêvé
-                            d’une bibliothèque sans frontières, une bibliothèque qui tient dans une poche et qui voyage
+                            d’une bibliothèque sans frontière, une bibliothèque qui tient dans une poche et qui voyage
                             partout</span>,
                         même là où le réseau ne suit pas.</p>
                 </div>
@@ -72,7 +74,7 @@
         <section class="container engagements"><!--Pourguoi choisir Freedom Books-->
             <h3 class="bold text_grey alignCenter w100">Pourquoi choisir <span class="typoTimes bold text_grey">Freedom
                     Books</span> ? </h3>
-            <div class="flex space_between">
+                    <!--             <div class="flex space_between">
                 <div class="bulle alignCenter">
                     <p>Simple d’utilisation</p>
                 </div>
@@ -85,7 +87,31 @@
                 <div class="bulle alignCenter">
                     <p>Accès Hors Ligne</p>
                 </div>
+            </div> -->
+            <div class="flex space_between">
+                <div data-aos="flip-left" class="neocard">
+                    <div class="neocard-inside">
+                        <p class="alignCenter">Simple d'utilisation</p>
+                    </div>
+                </div>
+                <div data-aos="flip-left" class="neocard">
+                    <div class="neocard-inside">
+                        <p class="alignCenter">Confort de lecture</p>
+                    </div>
+                </div>
+                <div data-aos="flip-left" class="neocard">
+                    <div class="neocard-inside">
+                        <p class="alignCenter">100% Gratuit</p>
+                    </div>
+                </div>
+                <div data-aos="flip-left" class="neocard">
+                    <div class="neocard-inside">
+                        <p class="alignCenter">Accès hors ligne</p>
+                    </div>
+                    <script>AOS.init();</script>
+                </div>
             </div>
+        </div>
         </section>
         <section class="bg_white"> <!--une lecutre adaptée et accesible-->
             <div class="container accessibilité">
