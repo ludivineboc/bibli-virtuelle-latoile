@@ -210,12 +210,14 @@ section {
 /*////////////persona////////////*/
 
 .persona {
-    width: 1130px;
-    height: 750px;
+    width: 1014px;
+    height: 644px;
 }
 
 /*////////////section////////////*/
-
+.taille{
+  font-size: large;
+}
 
 
 
@@ -256,7 +258,6 @@ section {
 
 
 /*////////////footer////////////*/
-
 
 
 

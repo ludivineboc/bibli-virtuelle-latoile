@@ -118,6 +118,7 @@ padding: 12px 42px;
      position: sticky;
      top: 30px;
      backdrop-filter: blur(7px);
+     z-index: 2;
   }
 
   header ul li {
@@ -264,7 +265,7 @@ font-size: 22px;
 
 .video {
     object-fit: cover;
-    width: 75%;
+    width: 65%;
     border-radius: 55px;
 }
 
@@ -286,16 +287,20 @@ color: #555770;
 
 /*////// SECTION AVIS//////////*/
 
-.avis h3 {
+.sectionavis h3 {
   font-size: 24px;
   padding-top: 50px;
   margin-bottom: 50px;
 }
 
 .avis img {
-  top: 50;
-  left: -50;
-  transform: translate(-50,-50);
+  width: 42%;
+}
+
+.avis h4 {
+  color: #000000;
+  font-size: 16px;
+
 }
 
 .card {
@@ -316,3 +321,20 @@ padding: 50px;
 padding-top: 85px;
 }
 
+/*////// SECTION FOOTER//////////*/
+
+footer {
+  background-color: #555770;
+  height: 255px;
+  margin-top: 80px;
+}
+
+.btn_footer {
+  border-radius: 68px;
+  background: linear-gradient(90deg, #1A92CE 2.17%, #1D89BF 50.45%, #45ABDE 98.39%);
+  border-radius: 31px;
+  box-shadow: -8px -8px 10px 0px #323042, 6px 5px 10px 3px rgba(54, 54, 54, 0.24);
+  color: #FFFFFF;
+  padding: 12px 24px;
+  height: 44px;
+}
