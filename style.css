@@ -111,6 +111,9 @@ padding: 12px 42px;
      height: 80px;
      align-items: center;
      padding-left: 22px;
+     position: sticky;
+     top: 30px;
+     backdrop-filter: blur(7px);
   }
 
   header ul li {
@@ -219,4 +222,47 @@ font-size: 22px;
 
 .accessibilité {
   padding-bottom: 60px;
+}
+
+/*////// SECTION CHIFFRES//////////*/
+
+.chiffres {
+  height: 90vh;
+}
+
+.chiffres h3 {
+  font-size: 24px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  }
+
+.chiffres a {
+    float: right;
+    opacity: 50%;
+    margin-top: 42px;
+  }
+
+.percent {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.chiffres .bulle {
+  margin-left: 20px;
+}
+
+.chiffres img {
+  width: 70%;
+  margin-top: 22px;
+}
+
+/*////// SECTION DEMO//////////*/
+
+.placeholder {
+    object-fit: cover;
+    width: 26%;
+}
+
+.center {
+  justify-content: center;
 }

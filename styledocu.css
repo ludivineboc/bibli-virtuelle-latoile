@@ -97,6 +97,33 @@ padding: 12px 42px;
   box-shadow: 0px 4px 10.9px 0px rgba(98, 94, 94, 0.25) inset;
 }
 
+.left {
+  width: 20%;
+  padding:0 16px;
+}
+
+.right {
+  width: 80%;
+}
+
+.sommaire {
+  position: sticky;
+  border-radius: 18px;
+  top: 150px;
+  border: 2px solid #FFF;
+  background: linear-gradient(90deg, #E8EAF1 2.4%, rgba(235, 236, 240, 0.00) 98.82%);
+  box-shadow: 8px 7px 21px 0px rgba(0, 0, 0, 0.15), -6px -7px 11px 0px rgba(255, 255, 255, 0.84);
+padding: 16px ;
+}
+
+.sommaire li {
+  margin: 6px 0 6px 6px;
+}
+
+section {
+  scroll-margin-top: 50px;
+}
+
   /*///////////HEADER////////////////*/
 
   header {
@@ -107,6 +134,9 @@ padding: 12px 42px;
      height: 80px;
      align-items: center;
      padding-left: 22px;
+     position: sticky;
+     top: 30px;
+     backdrop-filter: blur(7px);
   }
 
   header ul li {
