@@ -27,23 +27,31 @@
         </div>
     </header>
     <main>
-        <section class="hero flex space_between"> <!--HERO-->
-            <div class="flex">
+
+        <section class="hero "> <!--HERO-->
+            <div class="flex  space_between">
                 <div class="flex w50 contenu_hero">
                     <h1 class="bold">Votre bibliothèque partout, même hors ligne </h1>
                     <p>Accédez à des milliers de livres partout, même sans connexion, et transformez chaque instant en
                         une
                         opportunité de lecture.</p>
-                    <div>
-                        <a href="" class="btn_principal">Télecharger</a>
-                        <a href="" class="btn_secondaire">En savoir plus</a>
-                    </div>
+                    
+                        <div class="flex w70 space_between btnBoxHero">
+                            <a href="" class="btn_principal">Télecharger</a>
+                            <a href="" class="btn_secondaire">En savoir plus</a>
+                        </div>
+                       
+                    
                 </div>
 
-                <img src="Assets/BiblioHero.png" alt="Image d'une bibliothèque">
+                <div class="w50">
+                    <img src="Assets/BiblioHero.png" alt="Image d'une bibliothèque" class="w100 ">
+                </div>
+                
             </div>
 
         </section>
+
         <section class="bg_white"> <!--il était une fois-->
             <div class="flex container contexte">
                 <div class="flex w50">
@@ -148,7 +156,8 @@
         <section class="bg_white sectiondemo"> <!-- DEMO -->
             <div class="flex demo">
                 <div class="w50">
-                    <video src="Assets/lv_0_20250129104515.mp4" autoplay muted loop loading="lazy" class="video"></video>
+                    <video src="Assets/lv_0_20250129104515.mp4" autoplay muted loop loading="lazy"
+                        class="video"></video>
                 </div>
                 <div class="w50">
                     <ol>
@@ -164,13 +173,15 @@
             <h3 class="bold text_grey alignCenter w100 font30">N’attendez plus, rejoignez la communauté <span
                     class="typoTimes text_grey font30">Freedom books</span></h3>
             <div class="alignCenter"> <!--télécharger-->
-                <a href="https://www.apple.com/fr/app-store/"> <img src="Assets/appstore.png" alt="Image de l'appstore"></a>
-               <a href="https://play.google.com/store/apps?gl=FR"> <img src="Assets/googleplay.png" alt="Image de googleplay"></a>
+                <a href="https://www.apple.com/fr/app-store/"> <img src="Assets/appstore.png"
+                        alt="Image de l'appstore"></a>
+                <a href="https://play.google.com/store/apps?gl=FR"> <img src="Assets/googleplay.png"
+                        alt="Image de googleplay"></a>
             </div>
             <div class="flex space_between">
                 <div>
                     <div class="avis"><!--1er avis-->
-                        
+
                         <div class="card">
                             <img src="Assets/avis1.svg" alt="Image_Avis_1" class="test">
                             <p>Une application simple et intuitive. </p>
@@ -181,7 +192,7 @@
                 </div>
                 <div> <!--2eme avis-->
                     <div class="avis">
-                        
+
                         <div class="card">
                             <img src="Assets/avis2.svg" alt="Image_Avis_2">
                             <p>Une application vraiment agréable et adaptative à tout type de profil. Je recommande
@@ -193,7 +204,7 @@
                 </div>
                 <div><!--3eme avis-->
                     <div class="avis">
-                        <div class="card">  
+                        <div class="card">
                             <img src="Assets/avis3.svg" alt="Image_Avis_3">
                             <p>
                                 Je fais de l’exercice en plein air L’audio proposé par cette application est juste
@@ -208,25 +219,38 @@
             </div>
         </section>
     </main>
-    <footer class="flex">
-        <div>
-            <p>Freedom Books</p>
-            <p>Votre bibliothèque partout, même hors ligne </p>
+    <footer>
+        <div class="container flex">
+            <div class="btn_pos alignCenter w100">
+                <a href="" class="bold btn_footer">Contactez nous</a>
+            </div>
+            <div>
+                <div>
+                    <h4 class="typoTimes">Freedom Books</h4>
+                    <p>Votre bibliothèque partout, même hors ligne </p>
+                </div>
+                <div class="downloads_btn"> <!--télécharger-->
+                    <a href="https://www.apple.com/fr/app-store/"> <img src="Assets/appstore.png"
+                            alt="Image de l'appstore"></a>
+                    <a href="https://play.google.com/store/apps?gl=FR"> <img src="Assets/googleplay.png"
+                            alt="Image de googleplay"></a>
+                </div>
+            </div>
+            <div class="reseaux"> <!--réseaux-->
+                <script src="https://kit.fontawesome.com/41a871864a.js" crossorigin="anonymous" defer></script>
+
+                <div class="btn-container">
+                  <a href="https://www.facebook.com" class="custom-btn" role="link"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com" class="custom-btn" role="link"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com" class="custom-btn" role="link"><i class="fa-brands fa-linkedin"></i></a>
+                
+                </div>
+            </div>
+            <div class="alignCenter w100">
+                <p>© 2025 Freedom Books - Tous droits réservés.</p>
+            </div>
         </div>
-        <a href=""class="btn_footer">Contactez nous</a>
-        <div> <!--télécharger-->
-            <a href="https://www.apple.com/fr/app-store/"> <img src="Assets/appstore.png" alt="Image de l'appstore"></a>
-            <a href="https://play.google.com/store/apps?gl=FR"> <img src="Assets/googleplay.png" alt="Image de googleplay"></a>
-        </div>
-        <div> <!--réseau-->
-            <a href="https://www.instagram.com/">
-                <img src="Assets/abstract logo instagram.png" alt="Logo_insta">
-            </a>
-            <a href="https://x.com/?lang=fr">
-                <img src="Assets/abstract logo x.png" alt="logo_x">
-            </a>
-        </div>
-        <p>© 2025 Freedom Books - Tous droits réservés.</p>
+        
     </footer>
 </body>
 
