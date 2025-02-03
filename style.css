@@ -59,10 +59,9 @@ body {
 .btn_principal {
   border-radius: 68px;
   background: linear-gradient(90deg, #1A92CE 2.17%, #1D89BF 50.45%, #45ABDE 98.39%);
-  box-shadow: -8px -8px 10px 0px #FFF, 6px 5px 10px 3px rgba(54, 54, 54, 0.24);
+  box-shadow: -8px -4px 10px 0px #FFF, 6px 3px 10px 3px rgba(54, 54, 54, 0.24);
   color: #FFFFFF;
-  padding: 12px 42px;
-
+  padding: 12px 38px;
 }
 
 .btn_secondaire {
@@ -341,6 +340,10 @@ width: 70%;
   margin-bottom: 50px;
 }
 
+.downloads_btn {
+  width: 26%;
+}
+
 .avis {
   margin-top: 50px;
 }
@@ -389,7 +392,7 @@ padding-top: 85px;*/
 
 footer {
   background-color: #555770;
-  height: 255px;
+  height: 300px;
   margin-top: 80px;
 }
 
@@ -418,15 +421,15 @@ footer p {
   font-size: 16px;
 }
 
-.downloads_btn a img {
-  width: 30%;
+.dwnld a img {
+  width: 35%;
   margin-top: 30px;
-  margin-left: -18px;
+  margin-left: -24px;
 }
 
 .reseaux {
   margin-left: 750px;
-  margin-top: -8%;
+  margin-top: -10%;
 }
 
 /*BOUTONS RESEAUX*/
@@ -448,7 +451,7 @@ footer p {
   border: none;
   background: transparent;
   font-size: 30px;
-  box-shadow: 12px 12px 16px 0 #24495c, -12px -12px 16px #1a92ce86, inset 0 0 0 0 transparent;
+  box-shadow: 12px 12px 16px 0 rgb(36, 65, 79), -12px -12px 16px #5c5f81, inset 0 0 0 0 transparent;
   transition: box-shadow 200ms, transform 300ms cubic-bezier(.2, 2, 1, 1);
 }
 

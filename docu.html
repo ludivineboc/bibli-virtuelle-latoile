@@ -2,12 +2,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styledocu.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="flex container">
         <div class="flex space_between w100">
@@ -24,277 +26,323 @@
         </div>
     </header>
 
-        <section class="hero "> <!--HERO-->
-            <div class="flex  space_between">
-                <div class="flex w50 contenu_hero">
-                    <h1 class="bold">Votre bibliothèque partout, même hors ligne </h1>
-                    <p>Accédez à des milliers de livres partout, même sans connexion, et transformez chaque instant en
-                        une
-                        opportunité de lecture.</p>
-                    <div>
-                        
-                       
+    <section class="hero "> <!--HERO-->
+        <div class="flex  space_between">
+            <div class="flex w50 contenu_hero">
+                <h1 class="bold">Votre bibliothèque partout, même hors ligne </h1>
+                <p>Accédez à des milliers de livres partout, même sans connexion, et transformez chaque instant en
+                    une
+                    opportunité de lecture.</p>
+                <div>
+
+
+                </div>
+            </div>
+
+            <div class="w50">
+                <img src="Assets/BiblioHero.png" alt="Image d'une bibliothèque" class="w100 ">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <main class="flex">
+        <div class="left"> <!-- colonne de gauche -->
+
+            <div class="sommaire"><!--sommaire-->
+                <h3>Sommaire</h3>
+                <ul>
+                    <li><a href="#sectionContexte" title="Lien vers la section contexte">Contexte</a></li>
+                    <li><a href="#sectionPersona" title="Lien vers la section persona">Persona</a></li>
+                    <li><a href="#sectionProblematique"
+                            title="Lien vers la section de la problématique">Problématique</a></li>
+                    <li><a href="#sectionMission" title="Lien vers la section notre mission">Notre mission</a></li>
+                    <li><a href="#sectionIdee" title="Lien vers la section notre idée">Notre idée</a></li>
+                    <li><a href="#sectionetapesConception" title="Lien vers la section des étapes de conception">Les
+                            étapes de conception</a></li>
+                    <li><a href="#sectionidentite" title="Lien vers la section identité graphique">Identité
+                            graphique</a></li>
+                    <li><a href="#sectionTests" title="Lien vers la section tests utilisateurs">Tests utilisateurs</a>
+                    </li>
+                    <li><a href="#sectionConcurrence" title="Lien vers la section concurrence">La concurrence</a></li>
+                    <li><a href="#sectionInspi" title="Lien vers la section références">Références & inspirations</a>
+                    </li>
+                    <li><a href="#sectionNAF" title="Lien vers la section améliorations">Nos améliorations futures</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="right"> <!-- colonne de droite -->
+
+            <section class="bg_white paddingSection" id="sectionContexte"> <!--Contexte FINI-->
+                <div class="contexte container">
+                    <h3 class="color_bl">Contexte</h3>
+                    <p class="">Aujourd'hui, 16% des enfants dans le monde ne sont pas scolarisés, 48% de la population
+                        non scolarisée concerne les filles, seuls 22 % du continent africain ont accès à internet et 1
+                        enfant sur 6 dans le monde ne sait ni lire, ni écrire. Cela représente 617 millions d’enfants
+                        qui n’ont pas accès à une éducation de qualité.
+                        Notre mission, permettre à chacun d’apprendre et d’accéder au savoir sans restriction.</p>
+                </div>
+            </section>
+
+            <section class="persona paddingSection"> <!--persona FINI-->
+                <h3 class="color_bl">Persona</h3>
+                <img class="persona" src="Assets/persona.png" alt="Carte du persona">
+
+            </section>
+
+            <section id="sectionProblematique" class="bg_white paddingSection"> <!--problématique FINI-->
+                <h3 class="color_bl">Problématique</h3>
+                <h2>Comment permettre à Leila d’assouvir son besoin d’apprendre par la lecture ?</h2>
+            </section>
+
+            <section id="sectionMission" class="paddingSection"> <!--notre mission FINI-->
+                <h3 class="color_bl">Notre mission</h3>
+                <p>Permettre à chacun, peu importe sa situation financière ou géographique, d'accéder à une bibliothèque
+                    de livres et de ressources éducatives. Que vous soyez passionné par la lecture, que vous préfériez
+                    écouter des livres audio, ou que vous souhaitiez explorer des histoires dans différentes langues,
+                    nous avons créé une plateforme qui vous aide à apprendre, vous épanouir et vous divertir, sans avoir
+                    besoin d'une connexion constante ni d'un gros budget</p>
+
+            </section>
+
+            <section id="sectionIdee" class="sectionIdee paddingSection"> <!--notre idée FINI-->
+                <h3 class="color_bl">Notre idée</h3>
+                <p>Une application permettant aux utilisateurs de rechercher des livres en ayant la possibilité de:
+                <ul>
+                    <li> • <span>Filtrer</span> par recherche avancée (thématique, format, sujet,...) pour affiner votre
+                        recherche</li>
+                    <li> • De <span>lire, écouter et de les télécharge</span>r vos titres préférés</li>
+                    <li> • D’accéder à vos ouvrages même en étant <span>hors ligne</span></li>
+                    <li> • De <span>personnaliser l’affichage du texte</span> en mode lecture</li>
+                </ul>
+
+
+                Ainsi, nous résolvons le problème du manque d’accès à la lecture, notamment en cas de panne de connexion
+                internet.</p>
+
+
+            </section>
+
+
+            <section id="sectionetapesConception" class="paddingSection bg_white"> <!--les étapes de conception FINI-->
+                <h3 class="color_bl">Les étapes de conception</h3>
+                <div class="maquetteContainer"> <!--low fi-->
+                    <h2>Low fi</h2>
+                    <div class="flex space_between">
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/Ecran d'accueil Low fi.png"
+                                alt="Ecran d'accueil LowFi" class="w100 fitContaine">
+                            <p> Page d’accueil</p>
+                        </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/fiche de renseignement du livre Low fi.png"
+                                alt="Fiche de renseignement du livre LowFi" class="w100 fitContaine">
+                            <p> Fiche de renseignement du livre</p>
+                        </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/ma liste de lecture Low fi.png"
+                                alt="Liste de lecture LowFi" class="w100 fitContaine">
+                            <p>Liste de lecture</p>
+                        </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/lecture Low fi.png" alt="Photo de la lecture LowFi"
+                                class="w100 fitContaine">
+                            <p> Lecture </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="w50">
-                    <img src="Assets/BiblioHero.png" alt="Image d'une bibliothèque" class="w100 ">
-                </div>
-                
-            </div>
-
-        </section>
-
-            
-            <main class="flex">
-                <div class="left"> <!-- colonne de gauche -->
-
-                    <div class="sommaire"><!--sommaire-->
-                        <h3>Sommaire</h3>
-                        <ul>
-                            <li><a href="#sectionContexte">Contexte</a></li>
-                            <li><a href="#sectionPersona">Persona</a></li>
-                            <li><a href="#sectionProblematique">Problématique</a></li>
-                            <li><a href="#sectionMission">Notre mission</a></li>
-                            <li><a href="#sectionIdee">Notre idée</a></li>
-                            <li><a href="#sectionetapesConception">Les étapes de conception</a></li>
-                            <li><a href="#sectionidentite">Identité graphique</a></li>
-                            <li><a href="#sectionTests">Tests utilisateurs</a></li>
-                            <li><a href="#sectionConcurrence">La concurrence</a></li>
-                            <li><a href="#sectionInspi">Références & inspirations</a></li>
-                        </ul>
-
-                    </div> 
+                <div class="maquetteContainer"> <!--Mid fi-->
+                    <h2>Mid fi</h2>
+                    <div class="flex space_between">
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/ecran d'accueil Mid fi.png"
+                                alt="Ecran d'accueil MidFi" class="w100 fitContaine">
+                            <p>Accueil</p>
+                        </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/fiche de renseignement du livre Mid fi.png"
+                                alt="Fiche de renseignement du livre MidFi" class="w100 fitContaine">
+                            <p> Fiche de renseignement du livre</p>
+                        </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/ecran d'accueil hors ligne Mid fi.png"
+                                alt="Ecran d'accueil en hors ligne de la MidFi" class="w100 fitContaine">
+                            <p> Page d’accueil hors ligne</p>
+                        </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/Ma liste de lecture Mid fi.png"
+                                alt="Liste de lecture Midfi" class="w100 fitContaine">
+                            <p> Ma liste de lecture hors ligne</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="right"> <!-- colonne de droite -->
-
-                    <section class="bg_white paddingSection" id="sectionContexte"> <!--Contexte FINI-->
-                        <div class="contexte container">
-                        <h3 class="color_bl">Contexte</h3>
-                        <p class="">Aujourd'hui, 16% des enfants dans le monde ne sont pas scolarisés, 48% de la population non scolarisée concerne les filles, seuls 22 % du continent africain ont accès à internet et 1 enfant sur 6 dans le monde ne sait ni lire, ni écrire. Cela représente  617 millions d’enfants qui n’ont pas accès à une éducation de qualité. 
-                            Notre mission, permettre à chacun d’apprendre et d’accéder au savoir sans restriction.</p>
+                <div class="maquetteContainer"> <!--High fi-->
+                    <h2>High fi</h2>
+                    <div class="flex space_between">
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/ecran d'acceuil High fi.png"
+                                alt="Ecran d'accueil HighFi" class="w100 fitContaine">
+                            <p> Page d’accueil</p>
                         </div>
-                    </section>
-
-                    <section class="persona paddingSection"> <!--persona FINI-->
-                        <h3 class="color_bl">Persona</h3>
-                        <img  class="persona" src="Assets/persona.png" alt="">
-                      
-                    </section>
-
-                    <section id="sectionProblematique" class="bg_white paddingSection"> <!--problématique FINI-->
-                        <h2 class="">Comment permettre à Leila d’assouvir son besoin d’apprendre par la lecture ?</h2>
-                    </section>    
-                    
-                    <section id="sectionMission" class="paddingSection"> <!--notre mission FINI-->
-                        <h3 class="color_bl">Notre mission</h3>
-                        <p>Permettre à chacun, peu importe sa situation financière ou géographique, d'accéder à une bibliothèque de livres et de ressources éducatives. Que vous soyez passionné par la lecture, que vous préfériez écouter des livres audio, ou que vous souhaitiez explorer des histoires dans différentes langues, nous avons créé une plateforme qui vous aide à apprendre, vous épanouir et vous divertir, sans avoir besoin d'une connexion constante ni d'un gros budget</p>
-
-                    </section>
-
-                    <section id="sectionIdee" class="sectionIdee paddingSection"> <!--notre idée FINI-->
-                        <h3 class="color_bl">Notre idée</h3>
-                    <p>Une application permettant aux utilisateurs de rechercher des livres en ayant la possibilité de: 
-                        <ul>
-                            <li> • <span>Filtrer</span> par recherche avancée (thématique, format, sujet,...) pour affiner votre recherche</li>
-                            <li> • De <span>lire, écouter et de les télécharge</span>r vos titres préférés</li>
-                            <li> • D’accéder à vos ouvrages même en étant <span>hors ligne</span></li>
-                            <li> • De <span>personnaliser l’affichage du texte</span> en mode lecture</li>
-                        </ul>
-                           
-                        
-            Ainsi, nous résolvons le problème du manque d’accès à la lecture, notamment en cas de panne de connexion internet.</p>
-                    
-                  
-                    </section>
-   
-
-                    <section id="sectionetapesConception" class="paddingSection bg_white"> <!--les étapes de conception FINI-->
-                        <h3 class="color_bl">Les étapes de conception</h3>
-                        <div class="maquetteContainer"> <!--low fi-->
-                            <h2>Low fi</h2>
-                            <div class="flex space_between">
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/Ecran d'accueil Low fi.png" alt="" class="w100 fitContaine">
-                                    <p> Page d’accueil</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/fiche de renseignement du livre Low fi.png" alt="" class="w100 fitContaine">
-                                    <p>  Fiche de renseignement du livre</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/ma liste de lecture Low fi.png" alt="" class="w100 fitContaine">
-                                    <p>Liste de lecture</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/lecture Low fi.png" alt="" class="w100 fitContaine">
-                                    <p> Lecture </p>
-                                </div>
-                            </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/ecran d'accuil hors ligne High fi.png"
+                                alt="Ecran d'accueil hors ligne HighFi" class="w100 fitContaine">
+                            <p> Page d’accueil hors ligne</p>
+                        </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/lecture High fi.png" alt="Lecture HighFi"
+                                class="w100 fitContaine">
+                            <p>Lecture</p>
                         </div>
 
-                        <div class="maquetteContainer"> <!--Mid fi-->
-                            <h2>Mid fi</h2>
-                            <div class="flex space_between">
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/ecran d'accueil Mid fi.png" alt="" class="w100 fitContaine">
-                                    <p>Accueil</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/fiche de renseignement du livre Mid fi.png" alt="" class="w100 fitContaine">
-                                    <p>  Fiche de renseignement du livre</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/ecran d'accueil hors ligne Mid fi.png" alt="" class="w100 fitContaine">
-                                    <p> Page d’accueil hors ligne</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/Ma liste de lecture Mid fi.png" alt="" class="w100 fitContaine">
-                                    <p>  Ma liste de lecture hors ligne</p>
-                                </div>
-                            </div>
+                    </div>
+
+
+            </section>
+
+            <section id="sectionetapesPrototype" class="paddingSection right"> <!--section prototype FINI-->
+                <h3 class="color_bl">Le prototype</h3>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450"
+                    src="https://embed.figma.com/proto/Xt7hbv3zoWCrpF4NYOd2Gn/Projet1-Biblioth%C3%A8que_virtuelle-Groupe1?page-id=1%3A2&node-id=4423-9254&p=f&viewport=389%2C277%2C0.02&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4423%3A9254&embed-host=share"
+                    allowfullscreen></iframe>
+
+            </section>
+
+            <section id="sectionidentite" class="paddingSection bg_white"> <!--identité graphique FINI-->
+                <h3 class="color_bl">Identité graphique</h3>
+                <div class="flex space_between">
+                    <img src="Assets/Assets documentation/identité graphique.png" alt="Identité graphique" class="w40">
+
+                    <div class="w50">
+                        <h3>Une expérience immersive</h3>
+                        <p>Le Neumorphism apporte un design moderne, élégant et apaisant, avec des ombres subtiles qui
+                            rendent l’interface intuitive et agréable à utiliser. expérience immersive : sensation
+                            tactile
+                            et réaliste aux éléments de l’interface. Confort visuel : contrastes modérés et les ombrages
+                            subtils du neumorphism réduisent la fatigue visuelle Atmosphère accueillante : Une
+                            bibliothèque,
+                            qu’elle soit physique ou virtuelle, doit être un espace chaleureux et invitant.</p>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="sectionTests" class="paddingSection"> <!--tests utilisateur-->
+
+                <h3 class="color_bl">Retours des tests utilisateurs</h3>
+                <div> <!--modif 1-->
+                    <p>Modification 1 : modification des bouton d’action rapide dans les pages du livre</p>
+                    <div class="flex gap20 modifContainer">
+                        <div class=" w20">
+                            <img src="Assets/Assets documentation/Modif 1 avant.png" alt="Modification avant"
+                                class="w100">
+                            <p>avant</p>
                         </div>
-
-                        <div class="maquetteContainer"> <!--High fi-->
-                            <h2>High fi</h2>
-                            <div class="flex space_between">
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/ecran d'acceuil High fi.png" alt="" class="w100 fitContaine">
-                                    <p> Page d’accueil</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/ecran d'accuil hors ligne High fi.png" alt="" class="w100 fitContaine">
-                                    <p> Page d’accueil hors ligne</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/lecture High fi.png" alt="" class="w100 fitContaine">
-                                    <p>Lecture</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/lecture High fi.png" alt="" class="w100 fitContaine">
-                                    <p>  Page d’accueil hors ligne</p>
-                                </div>
-                            </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/modif 1 après.png" alt="Modification après"
+                                class="w100">
+                            <p>après</p>
                         </div>
-
-
-                    </section>
-
-                    <section  id="sectionetapesPrototype" class="paddingSection"> <!--section prototype FINI-->
-                        <h3 class="color_bl">Le prototype</h3>
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/Xt7hbv3zoWCrpF4NYOd2Gn/Projet1-Biblioth%C3%A8que_virtuelle-Groupe1?page-id=1%3A2&node-id=4423-9254&p=f&viewport=389%2C277%2C0.02&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4423%3A9254&embed-host=share" allowfullscreen></iframe>
-
-                    </section>
-
-                    <section id="sectionidentite" class="paddingSection bg_white"> <!--identité graphique FINI-->
-                        <h3 class="color_bl">Identité graphique</h3>
-                        <div class="flex space_between">
-                            <img src="Assets/Assets documentation/identité graphique.png" alt="" class="w40">
-                   
-                            <div class="w50">
-                                <h3>Une expérience immersive</h3>
-                                <p>Le Neumorphism apporte un design moderne, élégant et apaisant, avec des ombres subtiles qui rendent l’interface intuitive et agréable à utiliser. expérience immersive : sensation tactile et réaliste aux éléments de l’interface.  Confort visuel : contrastes modérés et les ombrages subtils du neumorphism réduisent la fatigue visuelle Atmosphère accueillante : Une bibliothèque, qu’elle soit physique ou virtuelle, doit être un espace chaleureux et invitant.</p>
-        
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="sectionTests" class="paddingSection"> <!--tests utilisateur-->
-
-                        <h3 class="color_bl">Retours des tests utilisateurs</h3>
-                        <div> <!--modif 1-->
-                            <p>Modification 1 : modification des bouton d’action rapide dans les pages du livre</p>
-                            <div class="flex gap20 modifContainer">
-                                <div class=" w20">
-                                    <img src="Assets/Assets documentation/Modif 1 avant.png" alt="" class="w100">
-                                    <p>avant</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/modif 1 après.png" alt="" class="w100">
-                                    <p>après</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div> <!--modif 2-->
-                            <p>Modification 2 : Intégration d’une barre de recherche dans la section Recherche</p>
-                            <div class="flex gap20 modifContainer">
-                                <div class=" w20">
-                                    <img src="Assets/Assets documentation/modif 2 avant.png" alt="" class="w100">
-                                    <p>avant</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/modif 2 après.png" alt="" class="w100">
-                                    <p>après</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div> <!--modif 3-->
-                            <p>Modification 3 : Ajout des boutons laisser un avis et lire plus tard</p>
-                            <div class="flex gap20 modifContainer">
-                                <div class=" w20">
-                                    <img src="Assets/Assets documentation/modif 3 avant.png" alt="" class="w100">
-                                    <p>avant</p>
-                                </div>
-                                <div class="w20">
-                                    <img src="Assets/Assets documentation/modif 3 après.png" alt="" class="w100">
-                                    <p>après</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </section>
-            
-                    <section id="sectionConcurrence" class="paddingSection bg_white"> <!--concurence-->
-                        <h3 class="color_bl">La concurrence</h3>
-
-                        <div class="flex space_between alignItemCenter">
-
-                            <div class="w30 alignCenter"> <!--audible-->
-                                <img src="Assets/Assets documentation/Audible logo .png" alt="" class="w20">
-                                <h3>Audible</h3>
-                                <p>Mise à disposition de livre audio exclusivement</p>
-                            </div>
-
-                            <div class="w30 alignCenter"><!--apple book-->
-                                <img src="Assets/Assets documentation/apple book logo.png" alt="" class="w20">
-                                <h3>Apple book</h3>
-                                <p>Mise à disposition de livre audio et de livre numérique</p>
-                            </div>
-
-                            <div class="w30 alignCenter"><!--kindle-->
-                                <img src="Assets/Assets documentation/kindle logo.png" alt="" class="w70">
-                                <h3>Kindle</h3>
-                                <p>Objet permettant de lire des livres numérique</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="sectionInspi" class="paddingSection"> <!--inspiration-->
-                        <h3 class="color_bl">Références & Inspirations</h3>
-
-                        <div class="flex space_between">
-                            <div class="w30 alignCenter">
-                                <img src="Assets/Assets documentation/spotify-logo inspiration.png" alt="" class="w100">
-                                <p>Format du lecteur audio et fonctionnalités de ce lecteur (vitesse de lecture, play/pause etc.) </p>
-                            </div>
-                            <div class="w30 alignCenter">
-                                <img src="Assets/Assets documentation/Audible logo .png" alt="" class="w70">
-                                <p>Design générale de l’application : caroussel de livre Fiche d’un livres
-                                </p>
-                            </div>
-                            <div class="w30 alignCenter">
-                                <img src="Assets/Assets documentation/logo webtoon inspirations.png" alt="" class="w100">
-                                <p>Design générale de l’application :  note (étoiles) Les couleurs
-                                    </p>
-                            </div>
-                        </div>
-                    </section>
+                    </div>
                 </div>
 
+                <div> <!--modif 2-->
+                    <p>Modification 2 : Intégration d’une barre de recherche dans la section Recherche</p>
+                    <div class="flex gap20 modifContainer">
+                        <div class=" w20">
+                            <img src="Assets/Assets documentation/modif 2 avant.png" alt="" class="w100">
+                            <p>avant</p>
+                        </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/modif 2 après.png" alt="" class="w100">
+                            <p>après</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div> <!--modif 3-->
+                    <p>Modification 3 : Ajout des boutons laisser un avis et lire plus tard</p>
+                    <div class="flex gap20 modifContainer">
+                        <div class=" w20">
+                            <img src="Assets/Assets documentation/modif 3 avant.png" alt="" class="w100">
+                            <p>avant</p>
+                        </div>
+                        <div class="w20">
+                            <img src="Assets/Assets documentation/modif 3 après.png" alt="" class="w100">
+                            <p>après</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section id="sectionConcurrence" class="paddingSection bg_white"> <!--concurence-->
+                <h3 class="color_bl">La concurrence</h3>
+
+                <div class="flex space_between alignItemCenter">
+
+                    <div class="w30 alignCenter"> <!--audible-->
+                        <img src="Assets/Assets documentation/Audible logo .png" alt="Logo audible" class="w20">
+                        <h3>Audible</h3>
+                        <p>Mise à disposition de livre audio exclusivement</p>
+                    </div>
+
+                    <div class="w30 alignCenter"><!--apple book-->
+                        <img src="Assets/Assets documentation/apple book logo.png" alt="Logo apple book" class="w20">
+                        <h3>Apple book</h3>
+                        <p>Mise à disposition de livre audio et de livre numérique</p>
+                    </div>
+
+                    <div class="w30 alignCenter"><!--kindle-->
+                        <img src="Assets/Assets documentation/kindle logo.png" alt="Logo Kindle" class="w70">
+                        <h3>Kindle</h3>
+                        <p>Objet permettant de lire des livres numérique</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sectionInspi" class="paddingSection"> <!--inspiration-->
+                <h3 class="color_bl">Références & Inspirations</h3>
+
+                <div class="flex space_between">
+                    <div class="w30 alignCenter">
+                        <img src="Assets/Assets documentation/spotify-logo inspiration.png" alt="logo spotify"
+                            class="w100">
+                        <p>Format du lecteur audio et fonctionnalités de ce lecteur (vitesse de lecture, play/pause
+                            etc.)
+                        </p>
+                    </div>
+                    <div class="w30 alignCenter">
+                        <img src="Assets/Assets documentation/Audible logo .png" alt="Logo audible" class="w70">
+                        <p>Design générale de l’application : caroussel de livre Fiche d’un livres
+                        </p>
+                    </div>
+                    <div class="w30 alignCenter">
+                        <img src="Assets/Assets documentation/logo webtoon inspirations.png" alt="Logo Webtoon"
+                            class="w100">
+                        <p>Design générale de l’application : note (étoiles) Les couleurs
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sectionNAF" class="bg_white paddingSection">
+                <h3 class="color_bl">Nos améliorations futures </h3>
+                <p>-Traduction <br>-Partager mon profil <br>-Échange de livre <br> -Catégorie <br>-Contactez nous
+                    <br>-Menu
+                    latéral <br> -Paramètres avancés de lecture (Police d'écritures , Couleur de fond , La luminosité ,
+                    Espacements des lignes ) </p>
+
+            </section>
+        </div>
     </main>
     <footer>
         <div class="container flex">
@@ -304,30 +352,34 @@
             <div>
                 <div>
                     <h4 class="typoTimes">Freedom Books</h4>
-                    <p>Votre bibliothèque partout, même hors ligne </p>
+                    <p>Votre bibliothèque partout, même hors ligne. </p>
                 </div>
                 <div class="downloads_btn"> <!--télécharger-->
                     <a href="https://www.apple.com/fr/app-store/"> <img src="Assets/appstore.png"
-                            alt="Image de l'appstore"></a>
+                            alt="Image de l'appstore" title="Bouton AppStore"></a>
                     <a href="https://play.google.com/store/apps?gl=FR"> <img src="Assets/googleplay.png"
-                            alt="Image de googleplay"></a>
+                            alt="Image de googleplay" title="GooglePlay"></a>
                 </div>
             </div>
             <div class="reseaux"> <!--réseaux-->
                 <script src="https://kit.fontawesome.com/41a871864a.js" crossorigin="anonymous" defer></script>
 
                 <div class="btn-container">
-                  <a href="https://www.facebook.com" class="custom-btn" role="link"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="https://www.instagram.com" class="custom-btn" role="link"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="https://www.linkedin.com" class="custom-btn" role="link"><i class="fa-brands fa-linkedin"></i></a>
-                
+                    <a href="https://www.facebook.com" class="custom-btn" role="link"><i class="fa-brands fa-facebook"
+                            title="Bouton vers Facebook"></i></a>
+                    <a href="https://www.instagram.com" class="custom-btn" role="link"><i class="fa-brands fa-instagram"
+                            title="Bouton vers instagram"></i></a>
+                    <a href="https://www.linkedin.com" class="custom-btn" role="link"><i class="fa-brands fa-linkedin"
+                            title="Bouton vers Linkedin"></i></a>
+
                 </div>
             </div>
             <div class="alignCenter w100">
                 <p>© 2025 Freedom Books - Tous droits réservés.</p>
             </div>
         </div>
-        
+
     </footer>
 </body>
+
 </html>

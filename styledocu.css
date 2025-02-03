@@ -140,6 +140,7 @@ padding: 16px ;
 
 .sommaire li {
   margin: 6px 0 6px 6px;
+  list-style: circle;
 }
 
 section {
@@ -322,7 +323,7 @@ h2 {
 
 footer {
   background-color: #555770;
-  height: 255px;
+  height: 300px;
   margin-top: 80px;
 }
 
@@ -381,7 +382,7 @@ footer p {
   border: none;
   background: transparent;
   font-size: 30px;
-  box-shadow: 12px 12px 16px 0 #24495c, -12px -12px 16px #1a92ce86, inset 0 0 0 0 transparent;
+  box-shadow: 12px 12px 16px 0 rgb(36, 65, 79), -12px -12px 16px #5c5f81, inset 0 0 0 0 transparent;
   transition: box-shadow 200ms, transform 300ms cubic-bezier(.2, 2, 1, 1);
 }
 
